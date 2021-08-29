@@ -1,2 +1,2 @@
 [ubuntu]
-172.31.0.198
+172.31.0.198 ansible_user=maruthi
