@@ -1,0 +1,14 @@
+---
+- hosts: ubuntu
+  become: yes
+  gather_facts: true
+  connetion: ssh
+  tasks:
+  - name: installing ubuntu on server
+    apt:
+      name: apache2
+      state: latest
+    notify: restart aapche
+  handlers:
+  - name: restart aapche
+    state: restart
