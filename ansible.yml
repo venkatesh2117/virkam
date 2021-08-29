@@ -11,4 +11,4 @@
     notify: restart aapche
   handlers:
   - name: restart aapche
-    state: restart
+    state: restarted
