@@ -1,9 +1,5 @@
 [ubuntu]
 172.31.0.198 ansible_user=maruthi
 
-[rhel]
-200.03.040
-
-[debian]
-63.203..66
+this is venkatesh
 
